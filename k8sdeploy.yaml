@@ -15,8 +15,8 @@ spec:
         app: healthcare-eta-app
     spec:
       containers:
-      - name: bankapp-eta-container
-        image: loksaieta/bankapp-eta-app
+      - name: healthcare-eta-container
+        image: somajoshi/healthcare-eta-app
         ports:
         - containerPort: 8089
 ---
@@ -28,7 +28,7 @@ metadata:
     app: healthcare-eta-app
 spec:
   selector:
-    app: bankapp-eta-app
+    app: healthcare-eta-app
 
   type: NodePort
   ports:
