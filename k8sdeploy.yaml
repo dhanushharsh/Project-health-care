@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: healthcare-container
-        image: somajoshi/healthcare-application
+        image: harsh672/healthcare-application
         ports:
         - containerPort: 8084
 ---
